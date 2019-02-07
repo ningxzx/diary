@@ -14,7 +14,7 @@ export const HTTP_STATUS = {
     GATEWAY_TIMEOUT: 504
   }
 
-export const base = "https://stage.circle30.com/api"
+// export const base = "https://stage.circle30.com/api"
 
 /**
  * 错误发送接口

@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'circle30',
+  projectName: 'diary',
   date: '2019-1-15',
   designWidth: 750,
   deviceRatio: {

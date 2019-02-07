@@ -18,13 +18,14 @@ class App extends Component {
   config = {
     pages: [
       'pages/index/index',
-      'pages/cat/index'
+      'pages/cat/index',
+      'pages/chuanxi/index',
     ],
     window: {
       backgroundColor: '#f4f4f4',
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: 'CirCle30',
+      navigationBarTitleText: '',
       navigationBarTextStyle: 'black'
     },
     tabBar: {
@@ -35,7 +36,7 @@ class App extends Component {
         selectedIconPath: "./assets/images/ic_record_on.png"
       }, {
         pagePath: "pages/cat/index",
-        text: "家",
+        text: "么二",
         iconPath: "./assets/images/ic_home.png",
         selectedIconPath: "./assets/images/ic_home_on.png"
       }],
