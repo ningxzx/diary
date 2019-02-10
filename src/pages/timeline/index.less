@@ -1,0 +1,41 @@
+@import '../../varible.less';
+.timeline-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    .timeline {
+        position: relative;
+        border-left: 1px solid @mainColor;
+        font-size: 28px;
+        margin: 40px 0;
+        .timeline-info {
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 0  30px;
+            padding: 20px;
+        }
+        .timeline-title {
+            font-weight: bold;
+            margin-top: 30px;
+        }
+        .timeline-date {
+            color: @textNormal;
+            margin-bottom: 12px;
+        }
+        .timeline-location {
+            color: @textNormal;
+        }
+    }
+    .timeline:before {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        left: -5px;
+        top: -20px;
+        border-radius: 10px;
+        border: 1px solid @mainColor;
+    }
+}

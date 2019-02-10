@@ -22,7 +22,7 @@ class Index extends Component {
         description: ['风后面是风', '天空上面是天空', '道路前面还是道路'],
         date: ['2014-10-01', '2014-10-05'],
         cover: 'https://images.forldn.cn/cover-sgns.jpeg',
-        url: '/pages/chuanxi/index',
+        url: '/pages/sgns/index',
         timeline: ['垭口','毕棚沟']
       },
       {
@@ -30,7 +30,7 @@ class Index extends Component {
         description: ['Go where you feel most alive','Hike more. Worry Less.'],
         date: ['2015-10-01', '2015-10-06'],
         cover: 'https://images.forldn.cn/cover-konka.jpeg',
-        url: '/pages/chuanxi/index',
+        url: '/pages/blank/index',
         timeline: ['老榆林','日乌且','子梅村','子梅垭口','巴王海']
       },
       {
@@ -38,7 +38,7 @@ class Index extends Component {
         description: ['Land is the secure ground of home,', 'the sea is like life, the outside, the unknown.'],
         date: ['2017-01-30', '2017-02-05'],
         cover: 'https://images.forldn.cn/cover-palau.jpeg',
-        url: '/pages/chuanxi/index',
+        url: '/pages/timeline/index?site=palau',
         timeline: ['干贝城', '牛奶湖','珊瑚礁', '德国水道',  '大断层']
       },
       {
@@ -46,7 +46,7 @@ class Index extends Component {
         description: ['在我心灵深处，黑色的大鼓咚咚作响。','我听见黑色的历史在歌唱。'],
         date: ['2018-09-20', '2014-10-08'],
         cover: 'https://images.forldn.cn/cover-botswana.jpeg',
-        url: '/pages/chuanxi/index',
+        url: '/pages/timeline/index?site=africa',
         timeline: ['马翁', '温得和克', '红沙漠', '鲸湾', '斯瓦靠科普蒙德', '埃托沙']
       }
     ]

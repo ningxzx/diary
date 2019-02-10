@@ -20,6 +20,10 @@ class App extends Component {
       'pages/index/index',
       'pages/cat/index',
       'pages/chuanxi/index',
+      'pages/sgns/index',
+      'pages/palau/index',
+      'pages/timeline/index',
+      'pages/blank/index',
     ],
     window: {
       backgroundColor: '#f4f4f4',

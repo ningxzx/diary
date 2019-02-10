@@ -5,16 +5,20 @@ page {
     font-family: 'PingFangSC-Regular';
 }
 
-view,text {
+view,
+text {
     color: #333;
     line-height: 1;
 }
-button{
+
+button {
     border-radius: 0;
 }
-button:after{
-    border:none;
+
+button:after {
+    border: none;
 }
+
 .card {
     margin-top: 20px;
     padding: 0 28px;
@@ -41,6 +45,7 @@ button:after{
         }
     }
 }
+
 .blank-wrapper {
     height: 290px;
     display: flex;
@@ -58,21 +63,44 @@ button:after{
         color: @textLight;
     }
 }
+
 .card:last-child {
     margin-bottom: 20px;
 }
 
-
-.timeGap{
+.timeGap {
     margin: 0 10px;
 }
 
-.show{
+.show {
     display: block !important;
 }
-.inline-show{
+
+.inline-show {
     display: inline-block !important;
 }
+
 .horizontal-gap {
     margin: 0 8px;
+}
+
+.travel-note-wrapper {
+    background-color: #fff;
+    padding: 30px;
+    .title{
+        font-size: 44px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+    .paragraph {
+        text-indent: 2em;
+        font-size: 30px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+    .note-image{
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 30px;
+    }
 }
