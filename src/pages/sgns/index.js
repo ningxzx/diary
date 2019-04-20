@@ -1,7 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Button, Text, Swiper } from '@tarojs/components'
 import { withShare } from '../../utils/helper'
-import './index.less'
 @withShare()
 class Sgns extends Component {
     state = {}
