@@ -46,7 +46,7 @@ class Cat extends Component {
                     <Swiper current={current == 'meme' ? 0 : 1} className="cat-swiper" onChange={this.swipeTab}>
                         <SwiperItem className="cat-swiper-item" >
                             <View className="cat-log-wrapper">
-                                <Video className="cat-video" src='https://images.forldn.cn/meme.mp4' poster='https://images.forldn.cn/meme-cover.jpeg' title="2018的么么和二二"></Video>
+                                {/* <Video className="cat-video" src='https://images.forldn.cn/meme.mp4' poster='https://images.forldn.cn/meme-cover.jpeg' title="2018的么么和二二"></Video> */}
                                 <View className="cat-logs">
                                     {memeLogs.map((x, i) => {
                                         return (
@@ -61,7 +61,7 @@ class Cat extends Component {
                         </SwiperItem>
                         <SwiperItem >
                             <View className="cat-log-wrapper">
-                                <Video className="cat-video" src='https://images.forldn.cn/erer.mp4' poster='https://images.forldn.cn/erer-cover.jpeg' title="营业的二二"></Video>
+                                {/* <Video className="cat-video" src='https://images.forldn.cn/erer.mp4' poster='https://images.forldn.cn/erer-cover.jpeg' title="营业的二二"></Video> */}
                                 <View className="cat-logs">
                                     {ererLogs.map((x, i) => {
                                         return (
